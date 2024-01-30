@@ -27,7 +27,7 @@ export default function usePlan() {
                 min: colPreviaRequisito.ObjRequisitoPreviaAlumno.MinMateriasReqPrevia,
                 subjects: colPreviaRequisito.ObjRequisitoPreviaAlumno.ColMateriasRequisito.map((colMat: ColMateriasRequisito) => {
                   return {
-                    meets: colMat.Resultado === 'APR',
+                    meets: colMat.Resultado === 'APR' || colMat.Resultado === 'REV',
                     title: colMat.ObjMateria.Nombre,
                     type: colMat.TipoCredito
                   }
@@ -47,7 +47,7 @@ export default function usePlan() {
                 min: colPreviaRequisito.ObjRequisitoPreviaAlumno.MinMateriasReqPrevia,
                 subjects: colPreviaRequisito.ObjRequisitoPreviaAlumno.ColMateriasRequisito.map((colMat: ColMateriasRequisito) => {
                   return {
-                    meets: colMat.Resultado === 'APR',
+                    meets: colMat.Resultado === 'APR' || colMat.Resultado === 'REV',
                     title: colMat.ObjMateria.Nombre
                   }
                 })
