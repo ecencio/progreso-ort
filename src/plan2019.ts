@@ -589,82 +589,6 @@ export const Plan2019: Plan = {
           processed: false,
           options: [
             {
-              id: 5636,
-              hasOptions: false,
-              title: "Gestión de comunicación, conflictos en proyectos",
-              approval: { partial: false, total: false },
-              processed: false,
-              prerequisites: {
-                enroll: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                },
-                approval: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                }
-              }
-            },
-            {
-              id: 5733,
-              hasOptions: false,
-              title: "Habilidades gerenciales en grupos de proyectos",
-              approval: { partial: false, total: false },
-              processed: false,
-              prerequisites: {
-                enroll: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                },
-                approval: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                }
-              }
-            },
-            {
-              id: 5906,
-              hasOptions: false,
-              title: "Habilidades de equipo en desarrollo de software",
-              approval: { partial: false, total: false },
-              processed: false,
-              prerequisites: {
-                enroll: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                },
-                approval: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                }
-              }
-            },
-            {
-              id: 7473,
-              hasOptions: false,
-              title: "Técnicas de negociación para equipos de proyecto",
-              approval: { partial: false, total: false },
-              processed: false,
-              prerequisites: {
-                enroll: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                },
-                approval: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                }
-              }
-            },
-            {
               id: 7663,
               hasOptions: false,
               title: "Comunicación y liderazgo",
@@ -683,25 +607,6 @@ export const Plan2019: Plan = {
                 }
               }
             },
-            {
-              id: 1410,
-              hasOptions: false,
-              title: "Recursos humanos",
-              approval: { partial: false, total: false },
-              processed: false,
-              prerequisites: {
-                enroll: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                },
-                approval: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                }
-              }
-            }
           ]
         }
       ]
@@ -1583,25 +1488,6 @@ export const Plan2019: Plan = {
               id: 7473,
               hasOptions: false,
               title: "Técnicas de negociación para equipos de proyecto",
-              approval: { partial: false, total: false },
-              processed: false,
-              prerequisites: {
-                enroll: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                },
-                approval: {
-                  meets: false,
-                  standing: 0,
-                  requirement: []
-                }
-              }
-            },
-            {
-              id: 7663,
-              hasOptions: false,
-              title: "Comunicación y liderazgo",
               approval: { partial: false, total: false },
               processed: false,
               prerequisites: {
