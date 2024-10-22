@@ -16,7 +16,7 @@ jobs:
           persist-credentials: false
 
       - name: Install 🔧
-        run: npm ci
+        run: npm i
 
       - name: Build 🏗️
         run: npm build
