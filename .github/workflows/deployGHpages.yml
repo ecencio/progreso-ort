@@ -16,10 +16,10 @@ jobs:
           persist-credentials: false
 
       - name: Install 🔧
-        run: yarn install
+        run: npm ci
 
       - name: Build 🏗️
-        run: yarn build
+        run: npm build
         env:
           NODE_ENV: production
 
